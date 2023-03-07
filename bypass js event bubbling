@@ -1,0 +1,8 @@
+if cancle bubble, stopPropagation and other doesn't work or can't be used then try 
+          var parentel = event.target.parentElement.parentElement;
+          if (parentel.classList.contains("class")) {
+            // alert(" It Worked!!! ");
+            
+          }
+          
+          with this it will be easy to identify and run a code if needed.
